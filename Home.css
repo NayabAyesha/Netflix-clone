@@ -1,0 +1,76 @@
+.home{
+    background-color: black;
+}
+
+.main {
+    position: relative;
+    overflow-x: hidden;
+}
+
+.mainone {
+    width: 100%;
+}
+
+.main_caption {
+    position: absolute;
+    width: 100%;
+    padding-left: 6%;
+    padding-right: 6%;
+    bottom: 0;
+}
+
+.onecaption {
+    width: 90%;
+    max-width: 420px;
+    margin-bottom: 20px;
+}
+
+.main_caption h1 {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+.main_caption p {
+    max-width: 700px;
+    font-size: 17px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.onebutton {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+.onebutton .btn img {
+    width: 25px;
+}
+
+.onebutton .btn {
+    border: 0;
+    outline: 0;
+    padding: 8px 20px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    background: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.onebutton .dark-btn {
+    color: #fff;
+    background: #6d6d6eb3;
+}
+
+.onebutton .btn:hover {
+    background: black;
+    color :beige;
+}
+
+.onebutton .dark-btn:hover {
+    background: black;
+}
